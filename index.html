@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="icon" href="C:\Users\FX506\OneDrive\Escriptori\pokedex\img\pokeball.png">
+</head>
+<style>
+body {
+    background-image: url(./img/kanto-map.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: Pokemon;
+}
+
+@font-face {
+    font-family: Pokemon;
+    src: url(./pkmn.ttf);
+   }
+
+   a {
+        text-decoration: none;
+        color: white;
+        }
+
+    a:hover {
+        color: black;
+    }
+        
+    .titulo{
+        background-color: rgba(0, 0, 0, 0.774);
+        margin-left: auto;
+        margin-right: auto;
+        width: 16em;
+        text-align: center;
+        color: rgb(219, 219, 219)
+    }
+
+@media screen and (max-width: 700px) {
+    
+    body {
+        background-position: center;
+    }
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    a {
+        text-align: center;
+    }
+}
+
+</style>
+<body>
+    <div class="titulo">
+        <h1>Pokedex</h1>
+   </div>
+   <img src="./img/pokedex.png ">
+   <a class="pokemons" href="./pokemon/mankey.html"><h2>Mankey</h2></a>
+    <a class="pokemons" href="./pokemon/Growlithe.html"><h2>Growlithe</h2></a>
+    <a class="pokemons" href="./pokemon/Hitmonlee.html" ><h2>Hitmonlee</h2></a>
+    <a class="pokemons" href="./pokemon/sandshrew.html" ><h2>Shandshrew</h2></a>
+</body>
+</html>
