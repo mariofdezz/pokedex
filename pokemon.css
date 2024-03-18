@@ -1,60 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap');
 
-.press-start 2p-regular {
+.press-start-2p-regular {
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
- }
+}
 
 body {
-    font-family:"Press Start 2P", system-ui;
+    font-family: "Press Start 2P", system-ui;
 }
 
-.body.fondo1{
-    background-image: url(./img/mankey\ fondo.jpg)
+.fondo1 {
+    background-image: url(./img/mankey_fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
-.body.fondo2{
-    background-image: url(./img/growlithe\ fondo.jpg)
+.fondo2 {
+    background-image: url(./img/growlithe_fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
-.body.fondo3{
-    background-image: url(./img/hitmonlee\ fondo.jpg)
+.fondo3 {
+    background-image: url(./img/hitmonlee_fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
-.body.fondo4{
-    background-image: url(./img/shandshrew\ fondo.jpg)
+.fondo4 {
+    background-image: url(./img/shandshrew_fondo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
-#Marron{
-    background-color: rgb(148, 37, 37)
+#Marron {
+    background-color: rgb(148, 37, 37);
+    padding: 5px;
+    border-radius: 5px;
 }
 
-#Gris{
-    background-color: gray
+#Gris {
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
 }
 
-#Rojo{
-    background-color: rgb(222, 8, 8)
+#Rojo {
+    background-color: rgb(222, 8, 8);
+    padding: 5px;
+    border-radius: 5px;
 }
 
-#Negro{
-    background-color: rgb(54, 50, 50)
+#Negro {
+    background-color: rgb(54, 50, 50);
+    padding: 5px;
+    border-radius: 5px;
 }
 
-
-
-.titulo{
+.titulo {
     text-align: center;
-    font-family:"Press Start 2P", system-ui;
+    font-family: "Press Start 2P", system-ui;
 }
 
-.titulo1{
+.titulo1 {
     text-align: left;
-    font-family:"Press Start 2P", system-ui;
+    font-family: "Press Start 2P", system-ui;
 }
 
-.evo{
+.evo {
     text-align: center;
 }
 
@@ -67,8 +85,24 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 16em;
+    padding: 5px;
 }
 
 a {
     text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+
+    .titulo {
+        font-size: 20px;
+    }
+
+    .titulo1 {
+        font-size: 16px; 
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
